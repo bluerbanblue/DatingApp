@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 import { CanActivate, Router } from '@angular/router';
 import { Observable } from 'rxjs';
-import { AlertifyService } from 'src/_services/alertify.service.service';
-import { AuthService } from 'src/_services/auth.service';
+import { AlertifyService } from 'src/app/_services/alertify.service.service';
+import { AuthService } from 'src/app/_services/auth.service';
 
 @Injectable({
   providedIn: 'root'
